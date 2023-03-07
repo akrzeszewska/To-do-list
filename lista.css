@@ -1,0 +1,8 @@
+body{
+    background: rgb(20,18,56);
+    background: linear-gradient(90deg, rgba(20,18,56,1) 0%, rgba(191,33,149,1) 0%, rgba(0,212,255,1) 100%);
+}
+.page{
+    border: 1px solid rgb(181, 15, 137);
+    border-radius: 5px;
+}
