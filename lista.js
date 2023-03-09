@@ -13,8 +13,9 @@ const klikniecie = znajdzCos("span");
 
 klikniecie.addEventListener("click", () => {
     let tresc = trescNowegoLi.value;
-    const nowyLi = nowyElementListy("li", tresc);
-    const znajdzRodzica = znajdzCos("ul");
+    const nowyLi = nowyElementListy("div", tresc);
+    nowyLi.classList.add("elementOfList");
+    const znajdzRodzica = znajdzCos(".pageList");
     const dodajZaRodzica = znajdzRodzica.appendChild(nowyLi);
     trescNowegoLi.value = "";
 })
