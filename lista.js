@@ -15,7 +15,7 @@ klikniecie.addEventListener("click", () => {
     let tresc = trescNowegoLi.value;
     const nowyLi = nowyElementListy("div", tresc);
     nowyLi.classList.add("elementOfList");
-    const znajdzRodzica = znajdzCos(".pageList");
+    const znajdzRodzica = znajdzCos(".page12");
     const dodajZaRodzica = znajdzRodzica.appendChild(nowyLi);
     trescNowegoLi.value = "";
 })
